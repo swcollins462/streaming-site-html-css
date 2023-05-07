@@ -34,11 +34,13 @@ h1 {
     margin: 0 0.5rem;
 }
 
+
 /* Movie list */
 .movie-list-title {
     margin-left: 1rem;
     margin-top: 1rem;
 }
+
 .movie-list-container {
     display: flex;
     justify-content: space-evenly;
@@ -62,6 +64,7 @@ h1 {
     border-radius: 50%;
     border: none;
     padding: 1rem;
+    color: white;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -83,6 +86,7 @@ h1 {
     box-sizing: content-box;
 }
 
+
 /* Footer styles */
 .back-to-top-button {
     width: 100%;
@@ -99,6 +103,9 @@ h1 {
 .footer-menu-item {
     margin: 1rem 2rem;
 }
+
+
+/* Media queries */
 
 .display-medium-and-below {
     display: none;
